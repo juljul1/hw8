@@ -7,6 +7,7 @@ body{
 	font-family: Tahoma, Arial, sans-serif;
 	line-height: 155%;
 	font-size: medium;
+	text-align: center;
 	}
 
 h3{
@@ -23,25 +24,33 @@ header{
 	height: 100px;
 	background-color: #FF9800;
 	padding: 10px;
+	text-align: left;
 	}
 
-div{
+.wrapp{
+	width: 970px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+div.content{
 	float: left;
 	padding: 5px;
-	width: 360px;
+	width: 30%;
 	}
 
 img{
-	width: 170px;
-	height: 120px;
+	width: 48%;
+	height: 110px;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	}
 
 @media screen and (max-width: 960px) {
   img {
    display: block;
    padding: 5px;
+   width: 150px;
   } }
 
 @media screen and (max-width: 960px) {
@@ -50,8 +59,32 @@ h1{
 	padding-top: 10px;
 	} }
 @media screen and (max-width: 960px) {
-div{
+div.content{
+	float: left;
+	padding-left: 20px;
+	width: 400px;
+	} }
+@media screen and (max-width: 960px) {
+div.wrapp{
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	} }
+@media screen and (max-width: 860px) {
+div.content{
 	float: left;
 	padding: 5px;
-	width: 450px;
+	width: 100%;
+	} }
+/*@media screen and (max-width: 860px) {
+  img {
+   display: block;
+   padding: 5px;
+   width: 150px;
+  } }*/
+ @media screen and (max-width: 860px) {
+div.wrapp{
+	width: 95%;
+	margin: 0 auto;
+	text-align: left;
 	} }
