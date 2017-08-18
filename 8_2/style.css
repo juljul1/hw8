@@ -11,7 +11,7 @@ body{
 	}
 
 .wrap{
-	width: 960px;
+	width: 900px;
 	margin:0 auto;
     text-align:left;
 	}
@@ -19,7 +19,7 @@ body{
 header{
 	margin: 5px;
 	background-color: #F1F1F1;
-	width: 935px;
+	width: 94%;
 	height: 55px;
 	padding: 25px 10px 10px 10px;
 	text-align:left;
@@ -27,7 +27,7 @@ header{
 
 aside{
 	padding-left: 10px;
-	width: 200px;
+	width: 20%;
 	float: left;
 	text-align:left;
 }
@@ -40,59 +40,77 @@ li {
 .center{
 	float: left;
 	margin: 15px;
-	width: 500px;
+	width: 50%;
 	text-align:left;
 	}
 
 .sidebar{
 	float: left;
 	background-color: #CDF0F6;
-	width: 200px;
+	width: 20%;
 	padding: 10px;
-	text-align:left;
+	text-align: left;
 }
 
 img{
-	width: 80%;
+	width: 100%;
 	padding-top: 30px;
 	}
 
 @media screen and (max-width: 960px) {
  .sidebar {
-   display: block;
-   background-color: #CDF0F6;
-	width: 95%;
-	padding: 10px;
+    display: block;
+    background-color: #CDF0F6;
+	width: 94%;
+	margin-left: 10px;
 	text-align:left;
   } }
  @media screen and (max-width: 960px) {
   .wrap{
-	width: 100%;
+	width: 95%;
 	margin:0 auto;
     text-align:left;
 } }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 960px) {
+  .center{
+  	float: left;
+	width: 75%;
+	margin: 10px;
+    text-align:left;
+} }
+@media screen and (max-width: 650px) {
  .center{
 	display: block;
 	width: 95%;
-	margin: 15px;
+	margin: auto;
 	text-align:left;
 	}
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 650px) {
  aside{
 	display: block;
-	padding-left: 10px;
-	width: 95%;
+	margin: auto;
+	margin-bottom: 15px;
+	width: 91%;
 	text-align:left;
 	}
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 650px) {
  header{
 	display: block;
-	width: 95%;
-	margin: 15px;
+	width: 91%;
+	margin: 5px;
 	text-align:left;
+	
+	}
+}
+@media screen and (max-width: 650px) {
+ .sidebar{
+	display: block;
+	margin: auto;
+	width: 95%;
+	text-align:left;
+	padding: 0px;
 	}
 }
 
