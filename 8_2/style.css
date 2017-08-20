@@ -64,20 +64,21 @@ img{
 	width: 94%;
 	margin-left: 10px;
 	text-align:left;
-  } }
- @media screen and (max-width: 960px) {
-  .wrap{
+  }
+.wrap{
 	width: 95%;
 	margin:0 auto;
     text-align:left;
-} }
-@media screen and (max-width: 960px) {
-  .center{
+} 
+ .center{
   	float: left;
 	width: 75%;
 	margin: 10px;
     text-align:left;
-} }
+} 
+
+ 	}
+
 @media screen and (max-width: 650px) {
  .center{
 	display: block;
@@ -85,35 +86,28 @@ img{
 	margin: auto;
 	text-align:left;
 	}
-}
-@media screen and (max-width: 650px) {
- aside{
+aside{
 	display: block;
 	margin: auto;
 	margin-bottom: 15px;
 	width: 91%;
 	text-align:left;
 	}
-}
-@media screen and (max-width: 650px) {
- header{
+header{
 	display: block;
 	width: 91%;
 	margin: 5px;
 	text-align:left;
 	
 	}
-}
-@media screen and (max-width: 650px) {
- .sidebar{
+.sidebar{
 	display: block;
 	margin: auto;
 	width: 95%;
 	text-align:left;
 	padding: 0px;
 	}
+
 }
-
-
 
 
