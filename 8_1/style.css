@@ -13,6 +13,7 @@ body{
 h3{
 	font-size: 28px;
 	padding-top: 10px;
+	margin-bottom: 15px;
 	}
 
 h1{
@@ -22,8 +23,9 @@ h1{
 
 header{
 	height: 100px;
+	width: 98%;
 	background-color: #FF9800;
-	padding: 10px;
+	padding: 1%;
 	text-align: left;
 	}
 
@@ -47,41 +49,33 @@ img{
 	}
 
 @media screen and (max-width: 960px) {
-  img {
+ 
+img {
    display: block;
-   padding: 5px;
-   width: 150px;
-  } }
+   width: 100%;
+   height: auto;
+   margin: auto;
+ }
 
-@media screen and (max-width: 960px) {
 h1{
 	font-size: 30px;
 	padding-top: 10px;
-	} }
-@media screen and (max-width: 960px) {
+	} 
+
 div.content{
 	float: left;
-	padding-left: 20px;
-	width: 400px;
-	} }
-@media screen and (max-width: 960px) {
+	margin: auto;
+	text-align: left;
+	width: 99%;
+	} 
+
 div.wrapp{
-	width: 100%;
+	width: 99%;
 	margin: 0 auto;
 	text-align: left;
-	} }
-@media screen and (max-width: 860px) {
-div.content{
-	float: left;
-	padding: 5px;
-	width: 100%;
-	} }
-/*@media screen and (max-width: 860px) {
-  img {
-   display: block;
-   padding: 5px;
-   width: 150px;
-  } }*/
+	} 
+
+}
  @media screen and (max-width: 860px) {
 div.wrapp{
 	width: 95%;
